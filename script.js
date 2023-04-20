@@ -1,5 +1,5 @@
 $('#button').click(function() {
-	console.log('ready!')
+	
 	$.ajax({
 		url: "./data.json",
 		type: 'POST',
