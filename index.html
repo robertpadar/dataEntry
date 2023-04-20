@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>API Data Engine</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON API Data Engine">
+		<meta name="author" content="Robert Padar">
+		<link href="libs/css/style.css" rel="stylesheet" type="text/css">
+		<script>
+			function contact() {
+				var x = document.getElementById("outter");
+				if (x.style.display === "block") {
+					
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="button">
+			<button type="button" onclick="contact()">Click</button>
+		</div>
+
+		<div id="outter">
+			<table>
+				<tr>
+					<th colspan="3" id="header">
+
+					</th>
+				</tr>
+				<tr>
+					<td colspan="3" id="choose">
+
+					</td>
+				<tr>
+					<td id="name">
+
+					</td>
+					<td id="description">
+
+					</td>
+					<td id="submit">
+
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/script.js"></script>
+
+	</body>
+
+</html>
