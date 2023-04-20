@@ -1,7 +1,7 @@
 $('#button').click(function() {
 	console.log('ready!')
 	$.ajax({
-		url: "libs/php/data.json",
+		url: "./data.json",
 		type: 'POST',
 		dataType: 'json',
 		success: function(result) {
