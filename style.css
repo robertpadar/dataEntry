@@ -63,4 +63,9 @@ button {
     background-color: cadetblue;
     float: right;
     margin-bottom: 8%;
+    letter-spacing: 0.2em;
+    transition: 0.5s ease-in-out;
+}
+button:hover {
+    letter-spacing: 0.6em;
 }
